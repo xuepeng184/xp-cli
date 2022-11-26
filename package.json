@@ -1,0 +1,44 @@
+{
+  "name": "xp-cli",
+  "version": "1.0.0",
+  "description": "xp的脚手架工具",
+  "bin": {
+    "xp-cli": "bin/xp-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xuepeng184/xp-cli.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup --minify",
+    "start": "tsup --watch"
+  },
+  "keywords": [
+    "cli",
+    "commander",
+    "xp"
+  ],
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "author": "xp",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.1.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.5",
+    "ora": "^6.1.2",
+    "tsup": "^6.5.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "commitlint": "^17.3.0",
+    "husky": "^8.0.2"
+  }
+}
