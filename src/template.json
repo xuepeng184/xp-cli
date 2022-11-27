@@ -2,14 +2,14 @@
   "templates": [{
     "name": "xp的后台管理系统",
     "about": {
-      "url": "https://github.com/xuepeng184/my-back-porgram.git",
+      "url": "https://github.com/xuepeng184/cli-template.git",
       "branch": "back-branch"
     }
   }, {
     "name": "xp的nest后端模板",
     "about": {
       "url": "https://github.com/xuepeng184/chattingRoom-back.git",
-      "branch": "nest-branch"
+      "branch": "master"
     }
   }, {
     "name": "xp的vue3+ts模板",
