@@ -5,9 +5,9 @@
 使用方式
 
 ```js
-npm i xp-cli
+npm i xyh-cli
 ```
 
 ```js
-npx xp-cli create|c <projectName>
+npx xyh-cli create|c <projectName>
 ```
