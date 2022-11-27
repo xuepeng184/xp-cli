@@ -3,13 +3,13 @@
     "name": "xp的后台管理系统",
     "about": {
       "url": "https://github.com/xuepeng184/my-back-porgram.git",
-      "branch": "master"
+      "branch": "back-branch"
     }
   }, {
-    "name": "xp的nest后台模板",
+    "name": "xp的nest后端模板",
     "about": {
       "url": "https://github.com/xuepeng184/chattingRoom-back.git",
-      "branch": "master"
+      "branch": "nest-branch"
     }
   }, {
     "name": "xp的vue3+ts模板",

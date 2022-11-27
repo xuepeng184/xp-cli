@@ -2,8 +2,6 @@ const {
   program
 } = require("commander")
 
-const path = require('path')
-
 
 program.version(require('../package.json').version, '-v,--version');
 
@@ -11,7 +9,7 @@ program.version(require('../package.json').version, '-v,--version');
 const actionList = [{
   command: 'create',
   alias: 'c',
-  description: "创建一个模板",
+  description: "根据模板创建项目",
   from: 'create.js',
   argument: '<project-name>'
 }]

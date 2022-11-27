@@ -32,7 +32,7 @@
     "fs-extra": "^10.1.0",
     "handlebars": "^4.7.7",
     "inquirer": "^8.2.5",
-    "ora": "^6.1.2",
+    "ora": "^5.4.1",
     "tsup": "^6.5.0"
   },
   "devDependencies": {
